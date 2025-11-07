@@ -1,4 +1,3 @@
-Dockerle
 # 1. Python tabanlı bir imaj seç
 FROM python:3.10-slim
 # 2. Konteyner içinde çalışma dizini oluştur
