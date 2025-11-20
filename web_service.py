@@ -1,5 +1,12 @@
 from flask import Flask, render_template, request, redirect
 
+import os
+
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
 app = Flask(__name__)
 
 # Mesajları geçici bir listede tutuyoruz (veritabanı yerine)
